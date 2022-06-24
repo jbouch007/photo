@@ -2,7 +2,7 @@
 function afficherHomePage()
 {
     //il va falloir détecter plus tard si l'utilisateur est connecté
-    $connecte = false;
+    $connecte = $_SESSION['connected'];
     if ($connecte)
     require_once 'C:\wamp64\www\photo\photo\views\homepage\template_homepage_connected.php';
     else

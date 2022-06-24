@@ -8,5 +8,11 @@
 </head>
 <body>
     Vous n'êtes pas connecté
+    <form method="post">
+        <input type="hidden" name="command" value="login">
+        <input type="text" name="email">
+        <input type="text" name="motdepasse">
+        <button>connected</button>
+    </form>
 </body>
 </html>
